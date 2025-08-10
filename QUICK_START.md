@@ -57,8 +57,8 @@ docker compose restart
 
 | Service | URL/Connection | Credentials |
 |---------|----------------|-------------|
-| Airflow Web UI | http://localhost:8080 | admin / admin |
-| PostgreSQL | localhost:5432 | airflow / airflow |
+| Airflow Web UI | http://localhost:8080 | "username" / password" |
+| PostgreSQL | localhost:5432 | "POSTGRES_USER" / "POSTGRES_PASSWORD" |
 | Redis | localhost:6379 | (no auth) |
 
 ## **Pipeline Features**
