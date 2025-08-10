@@ -1,3 +1,30 @@
+# Stock Data Pipeline Pro
+
+Author: Nooli Sivanji
+
+## Overview
+Stock Data Pipeline Pro is an automated solution for fetching, validating, and storing stock market data using Alpha Vantage API and PostgreSQL. It leverages Airflow for orchestration and supports data retention and health checks for robust operation.
+
+## Features
+- Automated stock data fetching from Alpha Vantage
+- Data validation and error handling
+- Storage in PostgreSQL database
+- Data retention management
+- Health check for environment, database, and API
+- Easy setup with environment variables
+
+## Quick Start
+1. Clone the repository
+2. Configure your `.env` file with required credentials
+3. Run `docker compose up --build -d`
+4. Access Airflow UI at [http://localhost:8080](http://localhost:8080)
+
+## Environment Variables
+See `.env` for all required configuration options.
+
+## License
+MIT
+
 # Dockerized Stock Market Data Pipeline
 
 A robust, scalable, and production-ready data pipeline using Apache Airflow and PostgreSQL to automatically fetch, process, and store stock market data from Alpha Vantage API.
